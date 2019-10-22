@@ -1,0 +1,101 @@
+body{
+background-color:grey;
+margin: 0;
+}
+
+.container-nav{
+    background-color: black;
+}
+
+.btn-group button{
+background-color: lightskyblue;
+border: 3px black;
+color: antiquewhite;
+padding: 10px 24px;
+cursor: pointer;
+
+}
+
+.btn-group button:not(last-child){
+border-right: none;    
+}
+.btn-group button::after{
+clear: both;
+display: table;     
+}
+.btn-group button:hover{
+background-color: red;
+}
+.btn-group button{
+width: 100%;
+text-align: left;
+font-size: 20px;
+
+
+
+
+}
+img{
+display: block;
+margin-left: auto;
+margin-right: auto; 
+margin-top: 100px; 
+width: 25%; 
+    
+}
+h1{
+margin-left: 400px;
+font-family: sans-serif;
+font-size: 50px
+
+
+}
+h2{
+margin-left: 500px;  
+font-family: sans-serif;
+font-size: 50px; 
+}
+
+.om-mig{
+text-align: center;
+font-size: 25px;
+width: 70%;
+margin-left: 15%
+}
+#bild-westham{
+width: 25%; 
+transition: 0.4s;
+filter: grayscale(50%)
+}
+
+#bild-westham:hover{
+transform: scale(1.1);
+filter: grayscale(0)
+}
+.link-westham{
+width: 561px;
+height: 315px;    
+}
+#video-westham{    
+width: 561px;
+height: 307px; 
+border: 5px solid tomato; 
+
+}
+.container-footer{
+width: 100%;
+background-color: black;
+
+}
+#kontakt-me{
+color: tomato;
+display: flex;
+justify-content: space-between;
+padding-left: 100px;
+padding-right: 100px;    
+}
+  
+
+
+    
+

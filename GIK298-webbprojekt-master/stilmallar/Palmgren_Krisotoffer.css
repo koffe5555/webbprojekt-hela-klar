@@ -1,0 +1,182 @@
+
+
+header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+
+li, a, button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navbar-links{
+    list-style: none;
+}
+
+.navbar-links li{
+    display: inline-block;
+    padding: 0px 60px 0px 40px;
+}
+
+.navbar-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-links li a:hover{
+    color: #cc0000;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(179, 0, 0, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(179, 0, 0, 0.8);
+}
+
+.showcase{
+    background-image: url("../bilder/banderoll.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 285px;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#showcase-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #edf0f1;
+    font-size: 80px;
+    text-shadow: 3px 3px black;
+    text-align: center;
+}
+
+body{
+    background-color: #24252a;
+    margin: 0;
+}
+
+.container-bild-musik li{
+    list-style: none;
+}
+
+.container-bild-musik{
+    float: right;
+    width: 40%;
+    padding-top: 40px;
+}
+
+#container-bild{
+    background-color: #5e606e;
+    float: left;
+    width: auto;
+    border: solid 10px #5e606e;
+}
+
+#container-bild p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #edf0f1; 
+    text-shadow: 2px 2px #24252a;
+}
+
+#container-musik li{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #edf0f1;
+    font-size: 14px;
+    float: none;
+    width: 60%;
+    text-shadow: 2px 2px black;
+}
+
+#container-musik ul{
+    float: right;
+    width: 88%;
+}
+
+.container-info{
+    background-color: #5e606e;
+    margin-right: 40%;
+    margin-left: 30px;
+}
+
+.container-info h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #edf0f1;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container-info p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #edf0f1;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.container-link{
+    float: right;
+    width: 45%;
+    padding-top: 100px;
+}
+
+#link-1:hover{
+    transform: scale(1.1)
+}
+
+#link-2:hover{
+    transform: scale(1.1)
+}
+
+.container-footer{
+    width: 100%;
+    background-color: #5e606e;
+    float: inline-end;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #edf0f1;
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+    margin-top: 80px;
+
+}
+
+#footer-kontakt{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+#kontakt-text{
+    font-size: 20px;
+}

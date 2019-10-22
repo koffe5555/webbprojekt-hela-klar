@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+}
+
+header{
+
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+font-weight: normal;
+width: 90%;
+margin-left: 50px;
+
+}
+img{
+    max-width:100%;
+    width: 200px;
+    
+}
+.href{ font-family: 'Times New Roman', Times, serif;
+       font-size: 25px;
+       color: black;
+
+}
+
+
+
+.containernavbar {
+    border-right: 2px black solid;
+    border-left: 2px black solid;
+    border-bottom: 2px black solid;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    
+    padding:20px;
+    margin-top: 20px;
+    width: 99%;
+    
+    padding:10px;
+    
+    background-color:white;
+     text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-justify:auto;
+    background-color:gray;
+    
+}
+    .containernavbar :hover {
+     background-color:black;
+     color:white;
+     transition: all 0.3s ease 0s;
+        
+    } 
+    .containerrubrik {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 70px;
+        font-family: sans-serif}
+    
+    .containerintro {
+
+    border-right: 2px black solid;
+    border-left: 2px black solid;
+    border-bottom: 5px black solid;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    float: left;
+    margin: 30px;
+    margin-top:100px; 
+ 
+
+} 
+#ommigtext{
+    text-align: center;
+
+}
+.containerhund {
+     border-right: 2px black solid;
+    border-left: 2px black solid;
+    border-bottom: 2px black solid;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    
+    width: 20%;
+    margin: 100px;
+    padding: 40px;
+    text-align: left;
+    position: absolute; 
+
+    right:10%;
+     
+
+}
+#motortext{
+    margin: 70px;
+    
+    text-align: left
+}
+#riztalöv{
+    max-width: 450px;
+}
+.container-link{ 
+    
+    width: 45%;
+    padding-top: 60px;
+    max-width: 100px; }
+
+    #link-1:hover{
+        transform: scale(1.6);
+        float: left;
+        transition: all 0.3s ease 0s;
+    }
+    
+    #link-2:hover{
+        transform: scale(1.6);
+        float:right;
+        transition: all 0.3s ease 0s;
+    }
+    
+ .containerrubrik {
+     font-size: 30px;
+     text-align: center;
+     margin-top: 70px;
+     font-family:sans-serif;
+     }
+             
+
+.containermotor{
+    border-right: 2px black solid;
+    border-left: 2px black solid;
+    border-bottom: 2px black solid;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    
+    width: 25%;
+    margin: 100px;
+    padding: 25px;
+    text-align: left;
+    position: absolute; 
+  
+    right:37%;
+    
+    
+}
+
+#motortext {
+    text-align: left;
+    margin: 10px;
+}
+.gokart{
+    float:right;
+    max-width: 170px;
+    position: relative;
+    top: -220px;
+  
+}
+
+
+ 
+
+   
+.container-link3{ 
+    
+    width: 45%;
+    padding-top: 60px;
+    max-width: 100px; 
+    transition: all 0.3s ease 0s;
+}
+
+    #link-3:hover{
+        transform: scale(1.6);
+        float: left;
+        transition: all 0.3s ease 0s;
+    }
+    
+    #link-4:hover{
+        transform: scale(1.6);
+        float:right;
+        transition: all 0.3s ease 0s;
+    }
+    
+  
+    #link-5:hover{
+        transform: scale(1.6);
+        float:right;
+        transition: all 0.3s ease 0s;
+    }
+    
+
+
+
+.container-footer{
+    width: 99%;
+    background-color: #5e606e;
+    float: inline-end;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #edf0f1;
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+    margin-top: 60%;
+
+}
+
+#footer-kontakt{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+#kontakt-text{
+    font-size: 20px;
+}
+
+    
+               
+
+
+
+    
